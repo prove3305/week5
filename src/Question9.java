@@ -6,17 +6,15 @@ public class Question9 {
 
         int i = 1;
 
-
-
         do{
             System.out.println("나이를 입력해주세요: ");
-            int x = sc.nextInt();
-            i = x;
+            int age = sc.nextInt();
+            i = age;
 
-        } while(i == 0);
+        } while(i < 0); // (i == 0)에서 수정
 
 
-        System.out.println("사용자의 나이는:"+i+"입니다.");
+        System.out.println("사용자의 나이는:"+i+"살 입니다.");
 
     }
 }

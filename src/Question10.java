@@ -10,8 +10,8 @@ public class Question10 {
 
         for(int i = 1; i <= num; i++)
         {
-            sum += num;
-            if(sum >= 100)
+            sum += i; // sum += num;에서 수정
+            if(i >= 100)  // (sum >= 100) 에서 수정
             {
                 break;
             }
